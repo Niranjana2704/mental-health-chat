@@ -1,4 +1,4 @@
-# KindWords – Simplest Mental Health Chat (Flask + Vanilla JS)
+# KindWords – Simplest Mental Health Chat  (Flask + Vanilla JS)
 
 A minimal, **deployment-ready** chat app for supportive conversations. It’s **not medical advice**. Use this as a starter template you can run locally or deploy in minutes.
 
