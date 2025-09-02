@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KindWords – Simple Mental Health Chat</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>KindWords</h1>
+      <p class="disclaimer">
+        Friendly support, not medical advice. If you're in crisis, contact local emergency services immediately.
+      </p>
+    </header>
+    <main id="chat"></main>
+    <form id="composer">
+      <input id="text" type="text" placeholder="Type how you're feeling..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+    <div class="controls">
+      <button id="resetBtn" title="Clear conversation">Reset</button>
+      <button id="exportBtn" title="Download chat history">Export</button>
+    </div>
+    <footer>
+      <small>Built for learning. No personal data beyond this device and this demo server.</small>
+    </footer>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
