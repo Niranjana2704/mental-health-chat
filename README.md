@@ -5,7 +5,7 @@ A minimal, **deployment-ready** chat app for supportive conversations. It’s **
 ---
 
 ## Features
-- Zero-config backend (Flask + SQLite)
+- Zero-config backend  (Flask + SQLite)
 - Clean, responsive UI (vanilla HTML/CSS/JS)
 - Stores conversation in a local SQLite database (`chat.db`)
 - Endpoints: `/api/message`, `/api/history`, `/api/reset`
